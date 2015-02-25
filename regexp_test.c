@@ -20,11 +20,9 @@ int main() {
     int result;
     RegExp test;
 
-    /*
     printf("About to test terrry against ter*y\n");
     result = match("ter*y", "terrry");
     printf("The result is: %d\n", result);
-    */
 
     test = new_regexp("ter*y");
 
